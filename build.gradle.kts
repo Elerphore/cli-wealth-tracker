@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.litote.kmongo:kmongo:4.5.1")
 }
 
 tasks.test {
